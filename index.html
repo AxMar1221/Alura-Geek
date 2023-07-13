@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alura Geek</title>
+    <script src="https://kit.fontawesome.com/750ba6d981.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <title>Alura Geek 🕹️</title>
 </head>
+
 <body>
-    
+
+    <header>
+        <div class="header__container">
+            <a href="./index.html">
+                <img class="header__logo" src="./assets/Elementos/alura-geek-logo.png" alt="geek-logo">
+            </a>
+            <input class="header__search" type="text" placeholder="Buscar..."><i
+                class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <a class="header__login" href="./login.html">
+            <button class="header__login">Login <i class="fa-solid fa-right-to-bracket"></i></button>
+        </a>
+    </header>
+
+    <footer>
+        <div class="footer_avatars">
+
+            <p>
+                <img src="https://avatars.githubusercontent.com/u/85906328?v=4" alt="avatar-github"
+                    class="avatar-github">
+                Mario Hernández "Tachi"
+                <a href="https://github.com/AxMar1221">
+                    <i class="fa fa-github icon"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/mario-hern%C3%A1ndez-ram%C3%ADrez-jim%C3%A9nez-aa5b8a237/">
+                    <i class="fa fa-linkedin icon"></i>
+                </a>
+                <a href="https://twitter.com/flako_7inc">
+                    <i class="fa fa-twitter icon"></i>
+                </a>
+            </p>
+            <p>&copy; <span id="currentYear"></span> Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
 </body>
+
 </html>

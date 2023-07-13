@@ -1,0 +1,80 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 94%;
+  margin: 1rem auto;
+  color: #2a7ae4;
+}
+header i {
+  cursor: pointer;
+}
+.header__container {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.header__search {
+  width: 40%;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 5px 5px;
+  background-color: #f5f5f5;
+  color: #2a7ae4;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  outline: none;
+}
+.header__login {
+  display: inline;
+  background: #2a7ae4;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ffffff;
+  border: none;
+  padding: 2px 10px;
+  margin: 1px 1px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.header__login:hover {
+  transform: scale(1.1);
+}
+.header__login i {
+  color: #ffffff;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+footer {
+  display: flex;
+  flex-direction: row;
+  padding: 5px 5px;
+  font-size: 18px;
+  margin: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  color: #2a7ae4;
+}
+.footer_avatars {
+    display: flex;
+    flex-direction: column;
+}
+.icon {
+  color: #2a7ae4;
+  font-size: 30px;
+}
+.avatar-github {
+  position: relative;
+  border-radius: 50%;
+  width: 4%;
+}
